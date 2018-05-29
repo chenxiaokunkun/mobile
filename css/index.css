@@ -1,0 +1,10 @@
+
+body{
+    height: 100vh;
+    background: url("../image/03.jpg") no-repeat;
+}
+
+
+.swiper-container {
+    width: 100vh;
+}
