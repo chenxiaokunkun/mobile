@@ -2,24 +2,19 @@ $(function(){
 
 
     var mySwiper = new Swiper ('.swiper-container', {
-        direction: 'vertical',
 
-        // Èç¹ûĞèÒª·ÖÒ³Æ÷
+        effect:'coverflow',/*3Dæµ*/
+        slidesPerView:1.5,/*1.5é¡µ*/
+        centerdeSlides:true,
+        initialSlide:4,
+
+
+        // å¦‚æœéœ€è¦åˆ†é¡µå™¨
         pagination: {
             el: '.swiper-pagination',
         },
 
     })
-
-
-
-
-
-
-
-
-
-
 
 
 

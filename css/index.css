@@ -1,10 +1,114 @@
 
 body{
-    height: 100vh;
-    background: url("../image/03.jpg") no-repeat;
+    height: 100vh;/*高*/
+    background-size: 100% auto;/*背景大小*/
+    background-position: center top;/*背景固定位*/
+    background: url("../image/03.jpg") no-repeat;/*背景图*/
 }
 
+.mobile{
+    /*中国移动 mobile*/
+    position:absolute;/*绝对定位*/
+    left: 0.15rem;/*左边距离*/
+    top: 0.18rem;/*上边距离*/
+    width: 1.17rem;/*宽*/
+}
+
+.roubuziti{
+    /*福州移动和你在一起*/
+    height: 40vh;
+    background: url("../image/ziti.png") no-repeat;
+    background-size: 80vw;
+    background-position: center center;
+}
 
 .swiper-container {
-    width: 100vh;
+    width: 100vw;/*宽*/
+    height: 50vh;/*高*/
 }
+.tou{
+    /*福建移动营业厅*/
+    height: 1.1rem;/*高*/
+    color: #050505;/*字体颜色*/
+    font-size: 0.36rem;/*字体大小*/
+}
+.swiper-slide{
+    /*福建移动营业厅 底层*/
+    border-radius: 0.10rem;/*圆角*/
+    background-color: white;/*背景色*/
+}
+.erweima{
+    /*二维码宽度*/
+    width: 3.35rem;/*宽*/
+}
+.shouci{
+    /*首次关注 立领*/
+    color: #050505;/*字体颜色*/
+    font-size: 0.34rem;/*字体大小*/
+    margin-top: 0.4rem;/*上边距*/
+}
+.bai{
+    /*100M*/
+    color: #188fe3;/*字体颜色*/
+    font-size: 0.34rem;/*字体大小*/
+}
+.shibie{
+    /*识别二维码 关注公众号*/
+    color: #999;/*字体颜色*/
+    font-size: 0.29rem;/*字体大小*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
