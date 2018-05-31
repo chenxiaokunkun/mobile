@@ -1,9 +1,9 @@
 
 body{
-    height: 100vh;/*高*/
-    background-size: 100% auto;/*背景大小*/
-    background-position: center top;/*背景固定位*/
     background: url("../image/03.jpg") no-repeat;/*背景图*/
+    height: 100vh;/*高*/
+    background-size: cover;/*背景大小*/
+    background-position: center top;/*背景固定位*/
 }
 
 .mobile{
